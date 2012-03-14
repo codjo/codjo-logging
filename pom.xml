@@ -20,7 +20,7 @@
     -->
 
     <name>Lib &gt; Logging</name>
-    <description>Module de journalisation</description>
+    <description>Logging module</description>
     <inceptionYear>2007</inceptionYear>
 
     <!-- Dependencies -->
@@ -29,6 +29,7 @@
         <dependency>
             <groupId>net.codjo.test</groupId>
             <artifactId>codjo-test-common</artifactId>
+            <scope>test</scope>
         </dependency>
         <!-- External -->
         <dependency>
